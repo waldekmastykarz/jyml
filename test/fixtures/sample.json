@@ -1,0 +1,16 @@
+{
+  "name": "jyml",
+  "version": "1.0.0",
+  "features": [
+    "yaml-to-json",
+    "json-to-yaml"
+  ],
+  "nested": {
+    "key": "value",
+    "list": [
+      "one",
+      "two",
+      "three"
+    ]
+  }
+}

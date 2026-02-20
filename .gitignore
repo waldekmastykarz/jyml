@@ -1,0 +1,12 @@
+node_modules/
+.tmp/
+
+# Coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# npm
+*.tgz

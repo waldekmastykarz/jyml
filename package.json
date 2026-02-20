@@ -1,0 +1,35 @@
+{
+  "name": "jyml",
+  "version": "0.1.0",
+  "description": "Convert YAML to JSON and JSON to YAML",
+  "bin": {
+    "jyml": "./bin/jyml.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "node --test 'test/**/*.test.js'",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": ["yaml", "json", "converter", "cli"],
+  "author": "Waldek Mastykarz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldekmastykarz/jyml.git"
+  },
+  "homepage": "https://github.com/waldekmastykarz/jyml#readme",
+  "bugs": {
+    "url": "https://github.com/waldekmastykarz/jyml/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "js-yaml": "^4.1.1"
+  }
+}
