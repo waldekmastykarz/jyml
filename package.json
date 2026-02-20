@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Convert YAML to JSON and JSON to YAML",
   "bin": {
-    "jyml": "./bin/jyml.js"
+    "jyml": "bin/jyml.js"
   },
   "files": [
     "bin/",
@@ -13,7 +13,12 @@
     "test": "node --test 'test/**/*.test.js'",
     "prepublishOnly": "npm test"
   },
-  "keywords": ["yaml", "json", "converter", "cli"],
+  "keywords": [
+    "yaml",
+    "json",
+    "converter",
+    "cli"
+  ],
   "author": "Waldek Mastykarz",
   "license": "MIT",
   "repository": {
