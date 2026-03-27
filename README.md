@@ -14,6 +14,16 @@ npx jyml data.json      # → data.yaml
 - **LLM-ready** — `--json` structured output, documented exit codes, errors to stderr.
 - **Tiny** — two dependencies, < 4 kB published.
 
+## Use with AI agents
+
+Give your AI coding agent the jyml skill so it can convert files on your behalf:
+
+```sh
+npx skills add waldekmastykarz/jyml
+```
+
+Once installed, ask your agent to _"convert this YAML to JSON"_ or _"convert config file format"_ and it will handle the rest.
+
 ## Install
 
 ```bash
