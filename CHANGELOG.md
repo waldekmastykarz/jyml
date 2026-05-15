@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-05-15
+
+### Changed
+
+- Minimum Node.js version raised from 20 to 22 (Node 20 reached end of life)
+
 ## [0.1.0] - 2026-02-20
 
 ### Added
