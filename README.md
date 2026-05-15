@@ -9,6 +9,8 @@ npx jyml config.yaml   # → config.json
 npx jyml data.json      # → data.yaml
 ```
 
+![Terminal window split vertically in two: left side shows JSON input and jyml converting it to YAML, on the right side shows the resulting YAML output](assets/screenshot.png)
+
 ## Why jyml
 
 - **Zero friction** — pass a file, get the converted file. No flags required.
