@@ -1,5 +1,7 @@
 # jyml
 
+[![skills.sh](https://skills.sh/b/waldekmastykarz/jyml)](https://skills.sh/waldekmastykarz/jyml)
+
 Zero-config YAML ↔ JSON converter. One command, no flags needed.
 
 ```bash
